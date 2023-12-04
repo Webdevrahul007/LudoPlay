@@ -1,0 +1,55 @@
+.leftContainer {
+    min-height: 100%;
+    position: relative;
+}
+
+.headerContainer,
+.leftContainer {
+    max-width: 480px;
+    width: 100%;
+}
+
+.rightContainer {
+    background-color: #fff;
+    background-size: cover;
+    overflow: hidden;
+    right: 0;
+    z-index: 4;
+}
+
+.rightContainer {
+    bottom: 0;
+    left: 480px;
+    position: fixed;
+    top: 0;
+    border-left: 10px solid #e0e0e0;
+}
+
+#root {
+    height: 100vh;
+}
+.bottom-space-fix {
+    padding-bottom: 60px;
+}
+.log-out-btn, .theme-btn {
+    background: #ffab00 !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+}
+
+.profile-center-card {
+    padding: 20px !important;
+    background: #fff6;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 80px;
+}
+
+button.update_RefCode {
+    background-color: #0db14b !important;
+    border: none;
+}
+
+button.update_RefCode img {
+    filter: invert(1) brightness(100);
+}

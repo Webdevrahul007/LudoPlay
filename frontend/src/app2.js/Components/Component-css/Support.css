@@ -1,0 +1,21 @@
+.row-setting{
+    width: 80% !important;
+    padding: 5px !important;
+}
+.col-4-design{
+    width: 100% !important;
+    background: #fff6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* padding: 20px; */
+}
+.col-8-design{
+    width: 100% !important;
+    background: #fff6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+.last-sec{
+    margin-bottom: 80px !important;
+}

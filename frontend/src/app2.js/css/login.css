@@ -1,0 +1,217 @@
+.main-area {
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+}
+
+.max-w-none {
+    max-width: none !important;
+}
+
+.splash-overlay {
+    background: linear-gradient(180deg, transparent -500px, #000 600.5px);
+    background-size: cover !important;
+    background-position: center !important;
+
+    height: 100vh;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    max-width: 480px;
+    z-index: 2;
+}
+
+.splash-screen {
+    -webkit-animation: splashAnim 22s linear infinite;
+    animation: splashAnim 22s linear infinite;
+    height: 100%;
+}
+
+.center-xy {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-footer {
+    padding: 0 10px;
+    padding-top: 20px;
+    color: #676767;
+    font-size: .75em;
+    font-weight: 400;
+    line-height: 15px;
+    position: sticky;
+    text-align: center;
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+}
+
+element.style {
+    top: 45%;
+    z-index: 3;
+}
+
+.splash-screen {
+    -webkit-animation: splashAnim 22s linear infinite;
+    animation: splashAnim 22s linear infinite;
+    height: 100%;
+}
+
+figure {
+    margin: 0 0 1rem;
+}
+
+.font-15 {
+    color: #2c2c2c;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.mb-4,
+.my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.cxy,
+.refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+element.style {
+    width: 85%;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+element.style {
+    width: 100px;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.cxy,
+.refer-button-copy {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.refer-button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    height: 48px;
+    padding: 0 22px;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.refer-button:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+.bg-green {
+    background-color: #0db25b;
+}
+
+.mt-4,
+.my-4 {
+    margin-top: 1.5rem !important;
+}
+
+.Login-button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    height: 48px;
+    padding: 0 22px;
+    color: #fff;
+    background-color: #0db25b;
+    width: 85%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* Login CSS */
+.login-section .main-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-section {
+    background: linear-gradient(128deg, rgb(13 178 91 / 75%) 20%, rgb(224 212 51 / 81%) 100%);
+}
+
+.login-outer .input-group-text {
+    border-width: 2px;
+    font-size: 18px;
+    background: #f2f4f6 !important;
+    border-color: #f2f4f6 !important;
+    min-width: 60px;
+}
+.login-outer .form-control {
+    font-size: 18px !important;
+    height: 48px;
+    border: 2px solid #f2f4f6;
+    border-radius: unset !important;
+}
+.login-outer .form-control::placeholder {
+    font-size: 18px !important;
+}
+.login-outer {
+    max-width: 420px;
+    padding: 0 10px;
+}
+.login-outer .form-control {
+    box-shadow: unset!important;
+    border: none !important;
+    outline: none !important;
+}
+.login-outer {
+    max-width: 420px;
+    padding: 15px 20px !important;
+    background: #ffffff59;
+    margin: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}

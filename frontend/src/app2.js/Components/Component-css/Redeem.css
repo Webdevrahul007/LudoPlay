@@ -1,0 +1,22 @@
+.redeem-btn-style{
+    background: #fff !important;
+    color: #000 !important;
+}
+.multiformhelpertext{
+    color: #000 !important;
+}
+.redeem-game-title{
+    color: #000;
+    font-weight: 600;
+    font-size: 22px;
+}
+.Redeem-card-design{
+    background: #fff6;
+    margin: 20px;
+    margin-top: 80px !important;
+    border-radius: 10px;
+}
+.redeem-btn-style:hover{
+    background: #fff !important;
+    color: #000 !important;
+}
